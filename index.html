@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Para mi amor ♥</title>
+  <style>
+    .body {
+      background-color: rgba(226, 90, 154, 0.87);
+      text-align: center;
+    }
+
+    .body__title {
+      color: rgb(19, 18, 18);
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 350px;
+      border-radius:90%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">¿Puedo seguir siendo tu novio?</h1>
+  <img src="https://lh3.googleusercontent.com/pw/ABLVV87SnRXuOmIYWiZSQWHpIF5aGBnrTXDsKxi65NPhHiFqISWvdUHL4t9N9FbYasXI3mzymNI9WQBFgWr3OYmkVyjWvkwVDVjWpao-Cp_T1EPvnRve8WwACwQkluxHElS3skgY2OezbKJ4lAVW0ikvvUrpOpbGd4lhZ3cWjghUExcHda1MHFqahjRUWaBPJGREj0GL3G1S-cnsA01ye8w6lVd5975DjtUmyt3Zhc1PI7IdJP4W8LEakJQAAJdI48Mjz6iv5Z7V3UDxYfFIpFo43PY8hB3--yYhOrz1sUfhHW1Lg-qiNchxfCkzdLbs658GfxW8QTLU7aW6EK-oOSF8KiT_r6x2FLGNEgcI25RCR7Nu6xqBGfiTo8K4YrVmfqAC_RrIeYFmc0Kvnf3dWN4lTwzZTYkKyi86w525_c0GsyYS8JSCk3oIffBqdIMeThFWMsf0cPKUgWhzx-Jf0lyCR46Y9vM1oCRjk1dJYO9wX2qO96Jy9kjTYJowoWDyimtIDgssfoeVOleO8UYHmuNEuS628zjud7jimvqZ1NE09Jw4s5fT2h2Yk0hBT3doD0OdLsy3WZGXxsUgjnnCUBS-eBLS2ubPRzQK81MsQgCJ39oVY9dzKhqSyrdRj4Ydx91uf0E2EXHJDSkyAWVu018RMv76RzFbXsEVdSH7X1CQ0DKY0u33-EONNzbhSN5oJQqaxY2SSkMU-8ANsCaN8gCW4SLOnht4Y33L4plYYus0pspo8iTNvX23vs-J-hjTrZvBodLbCQx7b0TNrDXJBf_iGTPfdMAmzaS_7RrZT6yvYMA6heF01PZ0jxmtIVZBUyb2kiM_LnjG_AKppdXTmdrQJsHbAWwnto7fG2FnoV4sjyVSmOTjbKmVpilY5_kB24_v-R_cpXY=w493-h641-s-no-gm?authuser=0.jpg" alt="Foto mi amor y yo " class="body__img" />
+  <br>
+  <button id="yes">Si mi amorcito! </button>
+  <button id="no">No!</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('Te amo mi amor!');
+      alert('Te amo hoy y siempre que leas esto, quiero que hagamos bien las cosas, que nos demos esta oportunidad, sabemos lo felices que podemos ser juntos!');
+      location.href = 'https://forms.gle/BysHjGMY9msKb4Ry5';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
+
